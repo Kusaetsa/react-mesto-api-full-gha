@@ -1,0 +1,9 @@
+.element__like_active {
+    min-width: 22px;
+    min-height: 19px;
+    display: block;
+    background-image: url(../../../../images/like-icon-active.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: opacity .2s linear;
+}

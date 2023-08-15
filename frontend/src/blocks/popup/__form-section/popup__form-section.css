@@ -1,0 +1,5 @@
+.popup__form-section {
+    display: flex;
+    min-height: 68px;
+    flex-direction: column;
+}

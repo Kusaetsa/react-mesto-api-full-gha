@@ -1,0 +1,13 @@
+.popup__container_for-message {
+    align-items: center;
+    padding: 60px 36px;
+}
+
+@media screen and (max-width: 670px) {
+    .popup__container_for-message {
+        max-width: 280px;
+        min-width: 0;
+        max-height: 308px;
+        padding: 50px 18px;
+    }
+}

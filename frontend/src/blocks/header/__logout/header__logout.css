@@ -1,0 +1,15 @@
+.header__logout {
+    color: #A9A9A9;
+    transition: all .2s;
+}
+
+.header__logout:hover {
+    opacity: .6;
+}
+
+@media screen and (max-width: 670px) {
+    .header__logout {
+    font-size: 18px;
+    margin: 18px 0 0;
+    }
+}

@@ -1,0 +1,18 @@
+.header__user-info {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    line-height: 22px;
+    flex-direction: row;
+    column-gap: 24px;
+}
+
+@media screen and (max-width: 670px) {
+    .header__user-info {
+        order: -1;
+        min-height: 142px;
+        width: 100%;
+        display: none;
+        flex-direction: column;
+    }
+}

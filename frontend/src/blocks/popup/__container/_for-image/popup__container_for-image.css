@@ -1,0 +1,7 @@
+.popup__container_for-image {
+    max-width: 75vw;
+    border-radius: 0px;
+    padding: 0;
+    background-color: transparent;
+    justify-content: flex-start;
+}

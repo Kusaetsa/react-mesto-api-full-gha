@@ -1,0 +1,20 @@
+.element {
+    position: relative;
+    width: 282px;
+    min-height: 361px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 940px) {
+    .element {
+        margin: 0 auto 19px;
+    }
+
+    .element:last-of-type {
+        margin-bottom: 0;
+    }
+}

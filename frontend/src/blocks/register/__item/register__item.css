@@ -1,0 +1,22 @@
+.register__item {
+    font-family: inherit;
+    outline: none;
+    border: 0;
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: 400;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 670px) {
+    .register__item {
+        border-bottom: 2px solid #ccc;
+    }
+}

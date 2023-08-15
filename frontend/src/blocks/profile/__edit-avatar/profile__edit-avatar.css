@@ -1,0 +1,14 @@
+.profile__edit-avatar:hover {
+    opacity: 100%;
+} 
+
+.profile__edit-avatar {
+    background-color: rgba(0, 0, 0, .8);
+    background-image: url(../../../images/pen.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: opacity .3s;
+}

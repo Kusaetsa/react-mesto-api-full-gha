@@ -1,0 +1,12 @@
+.register__container {
+    height: 54%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 670px) {
+    .register__container {
+        height: 76%;
+    }
+}

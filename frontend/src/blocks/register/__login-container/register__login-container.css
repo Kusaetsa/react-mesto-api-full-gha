@@ -1,0 +1,7 @@
+.register__login-container {
+    margin-top: 15px;
+    display: flex;
+    color: #FFF;
+    font-size: 14px;
+    column-gap: 4px;
+}
