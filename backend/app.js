@@ -8,7 +8,6 @@ const { errors } = require('celebrate');
 const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
 const cors = require('cors');
-
 const users = require('./routes/users');
 const cards = require('./routes/cards');
 const signin = require('./routes/signin');
@@ -16,7 +15,6 @@ const signup = require('./routes/signup');
 const errorHandler = require('./middlewares/errorHandler');
 const NotFoundError = require('./errors/NotFoundError');
 const { requestLogger, errorLogger } = require('./middlewares/logger');
-
 const { checkAuth } = require('./middlewares/auth');
 
 mongoose.connect('mongodb://127.0.0.1:27017/mestodb', {
