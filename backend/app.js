@@ -29,7 +29,8 @@ const limiter = rateLimit({
   max: 100,
 });
 
-app.use(cors({ origin: ['http://localhost:3000', 'https://myplaces.nomoreparties.co'], credentials: true, maxAge: 30 }));
+// app.use(cors({ origin: ['http://localhost:3000', 'https://myplaces.nomoreparties.co'], credentials: true, maxAge: 30 }));
+app.use(cors());
 app.use(express.json());
 app.use(helmet());
 app.use(limiter);
