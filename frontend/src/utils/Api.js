@@ -60,7 +60,7 @@ class Api {
 }
 
 const api = new Api({
-  url: 'http://localhost:3001/',
+  url: 'https://api.myplaces.nomoreparties.co/',
 })
 
 export default api;

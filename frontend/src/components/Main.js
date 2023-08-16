@@ -8,8 +8,6 @@ function Main ({ onEditProfile, onAddPlace, onEditAvatar, onCardClick, onCardLik
 
 
     const currentUser = React.useContext(CurrentUserContext);
-    console.log("карент юзер в мэйн =>", currentUser);
-
 
     return(
         <main className="main">
