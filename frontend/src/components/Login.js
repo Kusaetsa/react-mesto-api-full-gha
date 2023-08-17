@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from 'react-router-dom';
 import * as Auth from '../utils/Auth';
 
-function Login ( {handleLogin, onUserEmail} ) {
+function Login ( {handleLogin, onUserEmail, onTooltip} ) {
 
     //рефы инпутов//
     const emailRef = React.useRef();
@@ -23,6 +23,7 @@ function Login ( {handleLogin, onUserEmail} ) {
             navigate("/");
         })
         .catch((err) => {
+            onTooltip();
             console.log(`Ошибка авторизации: ${err}`)
         });  
     }

@@ -249,6 +249,7 @@ function App() {
             <Route path="/sign-in" element={<Login 
             handleLogin={() => setLoggedIn(true)}
             onUserEmail={handleEmail}
+            onTooltip = {handleInfoTooltipClick}
             />} />
             <Route 
                 path="/" 
