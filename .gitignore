@@ -19,11 +19,13 @@ node_modules
 /.pnp
 .pnp.js
 
-# testing
-/coverage
 
 # production
 /build 
+build
+
+# testing
+/coverage
 
 # misc
 .DS_Store
